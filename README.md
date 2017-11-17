@@ -8,7 +8,8 @@ To build the image from source:
     cd moodle25_docker
     docker build -t lazarohcm/moodle25
 
-Then run the container 
+Then run the container
+
     sudo docker run -it --add-host=database:172.17.0.1 --name=php56 -p 3030:3030 -v /var/www:/var/www lazarohcm/moodle25 bash
 
 
