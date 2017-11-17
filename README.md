@@ -1,5 +1,5 @@
 # Docker Image to run a Moodle 25 enviroment
-** Experimental project
+**Experimental project**
 
 ## How to
 To build the image from source:
