@@ -25,7 +25,7 @@ RUN apt-get -y --allow-unauthenticated install php5.6-zip
 RUN apt-get -y --allow-unauthenticated install php5.6-gd
 RUN apt-get -y --allow-unauthenticated install php5.6-soap
 RUN apt-get -y --allow-unauthenticated install php5.6-intl 
-RUN apt-get -y --allow-unauthenticated install php5.6-xmlrpc 
+RUN apt-get -y --allow-unauthenticated install php5.6-xmlrpc
 
 RUN apt-get -y install curl
 RUN apt-get -y install vim
