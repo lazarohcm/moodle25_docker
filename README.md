@@ -10,7 +10,7 @@ To build the image from source:
 
 Then run the container
 
-    sudo docker run -it --add-host=database:172.17.0.1 --name=php56 -p 3030:3030 -v /var/www:/var/www lazarohcm/moodle25 bash
+    sudo docker run -it --add-host=database:172.17.0.1 --name=moodle25 -p 3030:3030 -v /var/www:/var/www lazarohcm/moodle25 bash
 
 
 The `--add-host=database` is the host that you gonna set when configuring the moodle database address
